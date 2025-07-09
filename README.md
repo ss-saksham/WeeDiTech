@@ -29,19 +29,30 @@
 
 ## 🖥️ Local Setup Instructions
 
-1. **Clone the repository**
+### 1. Clone the repository
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/WeeDiTech.git
 cd WeeDiTech
+```
 
-# 2. **Install the dependencies**
+### 2. Install the dependencies
+
 ```bash
 pip install -r requirements.txt
+```
 
-# 3. **Run the app**
+### 3. Run the app
+
+```bash
 streamlit run app.py
+```
 
-# 📁 Folder Structure
+---
+
+## 📁 Folder Structure
+
+```
 WeeDiTech/
 ├── app.py                       # Main Streamlit app
 ├── trained_model.keras          # Trained plant disease model
@@ -51,18 +62,28 @@ WeeDiTech/
 ├── home_page(1).jpeg            # Banner image
 ├── requirements.txt             # Required Python libraries
 └── README.md                    # Project overview
+```
 
-📊 Dataset Information
-📸 87,000+ RGB images of crop leaves
-🏷️ 38 categories (healthy and diseased)
-🔄 80/20 Train-Validation split
-🧠 YOLO trained separately on crop/weed annotations
+---
 
-👨‍💻 Team Greennovators
-🌟 Saksham Singla
-🌟 Shagun Sharma
-🌟 Gargi Tokas
-🌟 Ritika Sanghwani
+## 📊 Dataset Information
 
-📃 License
-This project is licensed under the MIT License — feel free to use, modify, and share!
+- 📸 87,000+ RGB images of crop leaves
+- 🏷️ 38 categories (healthy and diseased)
+- 🔄 80/20 Train-Validation split
+- 🧠 YOLO trained separately on crop/weed annotations
+
+---
+
+## 👨‍💻 Team Greennovators
+
+- 🌟 Saksham Singla  
+- 🌟 Shagun Sharma  
+- 🌟 Gargi Tokas  
+- 🌟 Ritika Sanghwani
+
+---
+
+## 📃 License
+
+This project is licensed under the **MIT License** — feel free to use, modify, and share!
