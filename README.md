@@ -55,8 +55,6 @@ streamlit run app.py
 ```
 WeeDiTech/
 ├── app.py                       # Main Streamlit app
-├── trained_model.keras          # Trained plant disease model
-├── crop_weed_detection.weights  # YOLO weights
 ├── crop_weed.cfg                # YOLO config
 ├── obj.names                    # YOLO class labels
 ├── home_page(1).jpeg            # Banner image
